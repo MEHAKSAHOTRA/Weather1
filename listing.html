@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="reservation-card" style="border: 2px solid darkgrey; width: 300px; padding: 15px; border-radius: 20px; ">
+    <h2>Rs.80,000</h2>
+    <div>
+        <div style="display: flex; width: 300px; width: 100%; border: 1px solid darkgrey; ">
+            <div style="border: 1px solid darkgrey;  flex: 1;padding: 0 10px; ">
+                <p style="font-weight: bold; text-transform: uppercase">Check In</p>
+                <p>5/12/2024</p>
+            </div>
+            <div style="border: 1px solid darkgrey; flex: 1; padding: 0 10px; ">
+                <p style="font-weight: bold; text-transform: uppercase">Checkout</p>
+                <p>5/12/2024</p>
+            </div>
+        </div>
+
+        <div style="width: 90%; display: flex; gap: 10px; justify-content: center; margin: 20px 0; ">
+            <label for="guests-inp">
+                Guests
+            </label>
+            <input 
+            style="width: 250px "
+            id="guests-inp" placeholder="guests-inp" type="number">
+        </div>
+        
+        <button style="background-color: crimson; color: white;  border: none; padding: 10px; width: 100%; border-radius: 10px; ">Reserve</button>
+        
+        
+        <p style="margin-top: 20px; border-top: 1px solid grey; padding: 15px 0; ">
+            Total before taxes:
+            <span>Rs. 4,00,000</span>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
